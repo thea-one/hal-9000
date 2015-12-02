@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="fill_parent" android:layout_width="fill_parent">
+    <EditTextPreference android:title="Sense Cry Interval"
+        android:key="SENSE_CRY_INTERVAL_SECS"
+        android:summary="Please provide interval in seconds"
+        android:inputType="number"
+        android:defaultValue="10"
+        />
+    <EditTextPreference android:title="Sample length"
+        android:key="SAMPLE_LENGTH_SECS"
+        android:summary="Please provide sample length in seconds"
+        android:inputType="number"
+        android:defaultValue="3"
+        />
+    <EditTextPreference android:title="Samples count"
+        android:key="SAMPLES_COUNT"
+        android:summary="Please provide sample count"
+        android:inputType="number"
+        android:defaultValue="5"
+        />
+</PreferenceScreen>
